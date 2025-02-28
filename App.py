@@ -82,7 +82,7 @@ def signup():
 create_table()
 
 with st.sidebar:
-    selected = option_menu('Navigation', ['Sign Up', 'Sign In', 'Search User', 'Reset Password', 'Delete User', 'View All'])
+    selected = option_menu('Navigation', ['Sign-Up', 'Sign In', 'Search User', 'Reset Password', 'Delete User', 'View All'])
 
 if selected == "Sign-Up":
     signup()
